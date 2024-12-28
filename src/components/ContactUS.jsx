@@ -5,7 +5,7 @@ const ContactUS = () => {
     return (
         <div>
             <Header />            
-            <div className="bg-gray-100 min-h-screen pt-25 flex flex-col items-center">
+            <div className=" min-h-screen pt-25 flex flex-col items-center">
 
                 {/* Contact Header */}
                 <div className="bg-[#FF4C31] text-white text-center py-4 px-6 rounded-xl shadow-md w-full max-w-4xl">

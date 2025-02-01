@@ -9,7 +9,7 @@ const Hero = () => {
     return (
         <div className='h-screen flex justify-between px-[115px] py-4 items-center pt-20'>
             <div>
-                <p className='text-2xl font-bold'>Plan your trip now</p><br />
+                <p className='text-2xl font-bold'>Plan your trip now.</p><br />
                 <p className='text-5xl font-extrabold leading-16'>Save <span className='text-[#FF4C31]' >big</span> with our car rental</p><br /><br />
                 <p className='text-gray-500 text-sm pr-4'>To contribute to positive change and achieve our sustainability goals with many extraordinary</p><br />
                 <div className='flex gap-4'>

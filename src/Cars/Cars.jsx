@@ -72,7 +72,9 @@ const Cars = () => {
                                         <p className="text-2xl font-semibold text-gray-800">{car.name}</p>
                                         <div className='flex justify-between'>
                                             <p className="text-sm text-gray-500 mt-1">{car.model}</p>
-                                            <p className="text-sm bg-gray-200 w-fit px-2 rounded-full text-gray-500 mt-1">{car.type}</p>
+                                            <p className="text-xs sm:text-sm bg-[#FFEFE6] w-fit px-3 py-1 rounded-full text-[#FF4C31] font-medium mt-1">
+                                                {car.type}
+                                            </p>
                                         </div>
                                     </div>
                                 </div>

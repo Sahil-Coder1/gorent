@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Cars from './Cars/Cars';
 import CarById from './Cars/CarById';
 import AboutUs from './components/AboutUs';
+import ContactUS from './components/ContactUS';
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
             <Hero />
           </>} />\
           <Route path='/about-us' element={<AboutUs />} />
+          <Route path='/contact-us' element={<ContactUS />} />
           <Route path='/cars' element={<Cars />} />
-          <Route path='cars/id/:id' element={<CarById />} />
+          <Route path='cars/:id' element={<CarById />} />
         </Routes>
       </BrowserRouter>
     </>

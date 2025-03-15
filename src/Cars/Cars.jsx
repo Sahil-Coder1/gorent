@@ -65,8 +65,8 @@ const Cars = () => {
                         </div>
                     ) : filteredCars.length > 0 ? (
                         filteredCars.map((car) => (
-                            <Link to={`/cars/id/${car.slug}`}  key={car.slug}>
-                                <div  key={car.slug} className="w-80 bg-white cursor-pointer shadow-xl rounded-2xl overflow-hidden transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
+                            <Link to={`/cars/${car.slug}`} key={car.slug}>
+                                <div key={car.slug} className="w-80 bg-white cursor-pointer shadow-xl rounded-2xl overflow-hidden transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
                                     <img src={car.display} alt={car.name} className="rounded-t-2xl h-56 w-full object-cover" />
                                     <div className="p-4">
                                         <p className="text-2xl font-semibold text-gray-800">{car.name}</p>
